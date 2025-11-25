@@ -5,7 +5,7 @@ int fatorial(int n);
 int main() {
     int tudo = fatorial(5);
     if (tudo != 120) {
-        printf("eae flavio :D isso falhou de qualquer forma\n");
+        printf("falhou\n");
         return 1;
     }
 
