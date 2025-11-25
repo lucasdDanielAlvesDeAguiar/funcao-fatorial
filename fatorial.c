@@ -4,11 +4,12 @@ int fatorial(int n) {
     }
 
     int risingUP = 1;
-    for (int i = 1; i < n; i++) { 
-        risingUP *= i;
+for (int i = 1; i <= n; i++)
+    risingUP *= i;
     }
     return risingUP;
 }
+
 
 
 //rising up, back on the street, did my time took my chances?
